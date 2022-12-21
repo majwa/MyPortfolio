@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 2rem 4rem;
+
+}
+.nav-bar > h1{
+    padding: 30px;
+    text-align: center;
+
+}
+.nav-link{
+    display: flex;
+    gap: 2cm;
+}
+.nav-link >a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    
+}
+.home{
+    background-color: black;
+    min-height: 70vh;
+    color: white;
+    padding-top: 4.5px;
+}
+.home-content{
+    display: flex;
+    padding: 30px;
+}
+.home-about{
+    padding: 80px;
+    text-align: left;
+}
+.home-about > h1{
+    padding: 15px;
+}
+.home-about > h2{
+    padding: 15px;
+}
+.home-about > p{
+    line-height: 20px;
+    padding-bottom: 30px;
+}
+.home-about > a{
+    padding-top: 30px;
+}
+.home-about >  button{
+    padding: 20px 50px;
+    border-radius: 999px;
+    background-color: transparent;
+    color:white;
+    border: solid white 1px;
+}
+.Resume{
+    padding: 30px;
+
+}
+.Resume > h1{
+    text-align: center;
+}
+.education{
+    display: flex;
+}
+.education > h1{
+    padding: 50px;
+
+}
+.education-desc{
+    padding-left: 440px;
+    
+    padding-top: 50px;
+    
+}
+.skills > h1{
+    text-align: center;
+}
+.skills{
+    display: flex;
+}
+.skills > h1{
+    padding: 50px;
+
+}
+.skills-desc{
+    padding-left: 500px;
+    
+    padding-top: 50px;
+    
+
+}
+.experience > h1{
+    text-align: center;
+}
+.experience{
+    display: flex;
+}
+.experience > h1{
+    padding: 50px;
+
+}
+.experience-desc{
+    padding-left: 360px;
+    
+    padding-top: 50px;
+}
+.contacts {
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+.contacts > h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.contacts > form > label{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.contacts > form > input{
+    width: 30%;
+    padding: 10px;
+}
+.contacts > form > textarea{
+    width: 30%;
+    padding: 10px;
+}
+.sendMessage{
+    color: black;
+    border: 1px solid black;
+    padding: 0.8rem 3.5rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
